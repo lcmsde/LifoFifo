@@ -1,8 +1,8 @@
 public interface IntegerBuffer {
 
-    public void push (Integer i);
-    public Integer pop();
-    public int size();
-    public int capacity();
+     void push (Integer i);
+     Integer pop();
+     int size();
+     int capacity();
 
 }
