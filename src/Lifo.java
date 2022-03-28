@@ -5,8 +5,8 @@ public class Lifo extends AbstractIntegerBuffer {
         array = new Integer[s];
     }
 
-    public void push(Integer i) {
-        array[size++]=i;
+    public Lifo(){
+        array = new Integer[(int)Math.random() * (100 - 3 + 1) + 3  ];
     }
 
     public Integer pop() {

@@ -7,6 +7,9 @@ public abstract class AbstractIntegerBuffer implements IntegerBuffer {
     public int size(){
         return size;
     }
+    public void push(Integer i) {
+        array[size++]=i;
+    }
 
 
 }
