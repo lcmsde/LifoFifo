@@ -45,6 +45,10 @@ IntegerBuffer sink = new Fifo(3);
             Lifo randlifo = new Lifo();
             assertTrue(randlifo.capacity()<=100&randlifo.capacity()>=3);
         }
+        for(int i=0; i < 10000; i++){
+            Fifo randfifo = new Fifo();
+            assertTrue(randfifo.capacity()<=100&randfifo.capacity()>=3);
+        }
     }
 
     @Test
